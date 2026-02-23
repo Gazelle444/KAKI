@@ -1,16 +1,16 @@
-{
-  "name": "kaki-notes",
+{\n  "name": "kaki-notes",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "latest",
+  "private": true,
+  "dependencies": {\n    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest"
-  }
-}
+    "tailwindcss": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest"
+  },\n  "devDependencies": {\n    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  },\n  "scripts": {\n    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }\n}
